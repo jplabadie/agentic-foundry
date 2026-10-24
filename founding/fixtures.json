@@ -1,0 +1,4 @@
+{
+  "invariantSha256": "c698930245642bfe8f09d17506f3a4ca662e7280b5f01e41883168acac93e2a6",
+  "note": "Hash of the invariant lines joined by a newline. bedrock.mjs recomputes it."
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Foundry",
+  "revision": 1,
+  "status": "golden",
+  "amended": "2026-10-24",
+  "teamPhases": [
+    "propose",
+    "review",
+    "apply",
+    "record"
+  ],
+  "changeClasses": [
+    "docs",
+    "contract",
+    "runtime",
+    "infra"
+  ],
+  "riskClasses": [
+    "read",
+    "write",
+    "external"
+  ],
+  "approvalModes": [
+    "auto",
+    "ask_external",
+    "ask_always"
+  ],
+  "requiredChecks": [
+    "bedrock",
+    "contract"
+  ],
+  "protectedPaths": [
+    "founding/",
+    ".github/workflows/ci.yml",
+    "scripts/bedrock.mjs"
+  ],
+  "invariants": [
+    "The founding set is the law. A change that contradicts it does not land.",
+    "An agent does not merge its own contract change.",
+    "External actions wait for a person."
+  ],
+  "limits": {
+    "reviewersRequired": 1
+  }
+}
